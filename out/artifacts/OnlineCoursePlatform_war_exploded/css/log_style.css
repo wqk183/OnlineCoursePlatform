@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: '楷体';
+}
+#title{
+    margin-top: 100px;
+
+}
+#title p{
+    text-align: center;
+    font-size: 30px;
+    color: #35B558;
+}
+#main_body{
+    margin: 0 auto;
+    width: 820px;
+    font-size: 16px;
+    color: #999999;
+    background: #FFFFFF;
+
+}
+#main_body_right{
+    float: right;
+    text-align: center;
+    width: 400px;
+    padding-top: 80px;
+}
+#main_body_left{
+    padding-top: 25px;
+    padding-left: 40px;
+
+}
+#main_body_left table{
+    width: 380px;
+
+}

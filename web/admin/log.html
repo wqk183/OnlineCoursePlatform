@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="css/log_style.css">
+</head>
+<body background="img/main_bj.gif">
+<div id="main">
+    <div id="title">
+        <p>在线课程平台</p>
+        <p>Online course platform</p>
+    </div>
+    <div id="main_body" >
+        <div id="main_body_right">
+            没有账号？<a href="#" style="color: #35B558;text-decoration : none">免费注册</a><br><br>
+            <p style="font-size: 12px">---------------   快速登录   ---------------</p><br><br>
+            <a style="text-decoration: none;" href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&response_type=code&client_id=101119675&redirect_uri=https://passport.jikexueyuan.com/connect/success&state=eb5008792deb72fa32c99d0d1f99dccb&scope=get_user_info">
+                <img src="img/qq.png">
+            </a>
+            <a href="https://open.weibo.com/" style="text-decoration: none;"><img src="img/weibo.png"></a>
+            <a href="https://open.weixin.qq.com/" style="text-decoration: none;"><img src="img/weixin.png"></a>
+        </div>
+        <div id="main_body_left">
+        <table id="reg" style="height: 280px">
+            <tr>
+                <td colspan="2" ><span style="margin-left: 140px;font-size: 20px">用户登录</span></td>
+            </tr>
+            <tr>
+                <td style="text-align: right;"><p>账号：</p></td>
+                <td><input type="text" name="account" style="width: 310px;padding: 3px" placeholder="请输入账号"></td>
+            </tr>
+            <tr>
+                <td style="text-align: right;"><p>密码：</p></td>
+                <td><input type="text" name="password" style="width: 310px;padding: 3px" placeholder="请输入密码"></td>
+            </tr>
+            <tr>
+                <td style="text-align: right;"><p>验证：</p></td>
+                <td>
+                    <input type="text" name="verify" style="width: 240px;padding: 3px" placeholder="请输入验证码">&nbsp;<img border="0" src="verifyCode.jsp" name="verifycode">
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;"><p>类型：</p></td>
+                <td>
+                    <select name="identity" style="width: 320px;padding: 3px">
+                    <option style="color: #999999">普通用户</option>
+                    <option style="color: #999999">管理员</option>
+                    </select>
+                </td>
+            </tr>
+            <tr >
+                <td colspan="2"  >
+                    <input type="submit" name="sub" value="登录" style="background: #35B558;width: 370px;padding: 4px">
+                </td>
+            </tr>
+        </table>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

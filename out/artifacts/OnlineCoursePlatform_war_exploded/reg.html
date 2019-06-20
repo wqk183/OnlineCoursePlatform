@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>在线课程平台/注册</title>
+    <link rel="stylesheet" href="css/log_style.css">
+    <script>
+        function setImg(obj) {
+            var imageSrc = document.getElementById("image").value;
+            document.getElementById("pic").src = imageSrc;
+        }
+    </script>
+</head>
+<body background="img/main_bj.gif">
+<div id="main">
+    <div id="title">
+        <p>在线课程平台</p>
+        <p>Online course platform</p>
+    </div>
+    <div id="main_body" >
+        <div id="main_body_right">
+            已有账号？<a href="log.html" style="color: #35B558;text-decoration : none">立即登录</a><br><br>
+            <p style="font-size: 12px">---------------   快速登录   ---------------</p><br><br>
+            <a style="text-decoration: none;" href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&response_type=code&client_id=101119675&redirect_uri=https://passport.jikexueyuan.com/connect/success&state=eb5008792deb72fa32c99d0d1f99dccb&scope=get_user_info">
+                <img src="img/qq.png">
+            </a>
+            <a href="https://open.weibo.com/" style="text-decoration: none;"><img src="img/weibo.png"></a>
+            <a href="https://open.weixin.qq.com/" style="text-decoration: none;"><img src="img/weixin.png"></a>
+        </div>
+        <div id="main_body_left">
+            <form action="registerServlet" method="post">
+            <table id="reg" style="height: 240px">
+                <tr>
+                    <td colspan="2" ><span style="margin-left: 140px;font-size: 20px">新用户注册</span></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;"><p>账号：</p></td>
+                    <td><input type="text" name="account" style="width: 310px;padding: 3px" placeholder="请输入账号"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;"><p>密码：</p></td>
+                    <td><input type="text" name="password" style="width: 310px;padding: 3px" placeholder="请输入密码"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;"><p>确认：</p></td>
+                    <td><input type="text" name="repassword" style="width: 310px;padding: 3px" placeholder="请确认密码"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;"><p>头像：</p></td>
+                    <td >
+                        <select id="image" name="image" onchange="setImg(this)" style="width: 240px;padding: 6px 1px 3px 3px;color: #999999">
+                            <option value="img/1.jpg">image1</option>
+                            <option value="img/2.jpg">image2</option>
+                            <option value="img/3.jpg">image3</option>
+                            <option value="img/4.jpg">image4</option>
+                        </select>
+                        <span style="padding-top: 5px;padding-bottom: 5px"><img id="pic" src="img/1.jpg" width="68px" height="19px"/></span>
+                    </td>
+                </tr>
+                <tr >
+                    <td colspan="2"  >
+                        <input type="submit" name="sub" value="注册" style="background: #35B558;width: 370px;padding: 4px">
+                    </td>
+                </tr>
+            </table>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: '楷体';
+    font-size: 16px;
+
+}
+#wrapper{
+    margin: 0 auto;
+}
+#header{
+    margin: 0 auto;
+    width:1000px;
+    height: 80px;
+
+}
+#header a{
+    text-decoration: none;
+}
+#main_title{
+    float: left;
+    margin-top: 10px;
+}
+#head{
+    float: left;
+}
+#head ul{
+    list-style-type: none;
+}
+#head li{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+#head a{
+    text-decoration: none;
+    font-weight: bold;
+}
+#head a:hover{
+    color: #000;
+}
+#search{
+    width: 350px;
+    text-align: center;
+    float: left;
+    padding-top: 21px;
+    padding-bottom: 27px;
+}
+
+#other{
+    text-align: center;
+    float: right;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+#other img{
+    width: 40px;
+    height: 50px;
+}
+#main{
+    background-color:whitesmoke;
+    height: 1000px;
+    position: relative;
+    border: 1px solid #e4e4e4;
+}
+#main_content{
+    margin: 0 auto;
+    width:1000px;
+    height: 1000px;
+}
+#main_video_title{
+    height: 160px;
+    border: 1px solid #e4e4e4;
+    margin-top: 28px;
+    line-height: 50px;
+    background-color: #fff;
+    padding: 0 20px;
+    font-size: 16px;
+}
+#main_video_title span{
+    color: #999;
+    float: left;
+}
+#main_video_title .listTilte{
+    float: left;
+    list-style-type: none;
+}
+#main_video_title li{
+    float: left;
+    line-height: 50px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+#main_video_title a{
+    text-decoration: none;
+}
+
+#main_video_title li a:hover{
+    color: green;
+}
+#main_video{
+    margin-top: 30px;
+}
+#main_video ul{
+    list-style-type: none;
+}
+#main_video ul li{
+    float: left;
+    width: 122.5px;
+    height: 200px;
+    margin-bottom: 50px;
+    margin-right: 2px;
+
+}
+#main_video a{
+    text-decoration: none;
+}
+#main_video .courseBox{
+    border-style: none;
+    position: relative;
+    background-color: #eff0f2;
+    width: 122.5px;
+    height: 200px;
+}
+#main_video .imgBox {
+    position: relative;
+    background-color: #eff0f2;
+    margin-bottom: 20px;
+}
+#main_video img {
+    width: 230px;
+    height: 179px;
+}
+ #main_video .infoBox{
+     background-color: #fff;
+ }
+#main_video p {
+    width: 225px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 16px;
+}
+#footer{
+    margin: 0 auto;
+    width:1000px;
+    clear: both;
+    text-align: center;
+}

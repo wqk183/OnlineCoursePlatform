@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: '楷体';
+
+}
+#wrapper{
+    margin: 0 auto;
+}
+#header{
+    margin: 0 auto;
+    width:1000px;
+    height: 80px;
+}
+
+#main_title{
+    float: left;
+    margin-top: 10px;
+}
+#main_title a{
+    text-decoration: none;
+}
+#head{
+    float: left;
+}
+#head ul{
+    list-style-type: none;
+}
+#head li{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+#head a{
+    text-decoration: none;
+    font-weight: bold;
+}
+#head a:hover{
+    color: #000;
+}
+#search{
+    width: 350px;
+    text-align: center;
+    float: left;
+    padding-top: 21px;
+    padding-bottom: 27px;
+}
+#other{
+    float: right;
+    padding-top: 20px;
+    padding-right: 15px;
+
+}
+#main_content{
+    background-color:whitesmoke;
+}
+#main_son{
+    margin: 0 auto;
+    width:1000px;
+}
+.newClass h2{
+    line-height: 60px;
+    height: 60px;
+    text-align: left;
+    font-size: 18px;
+    color: #333;
+}
+.newClass ul{
+    list-style-type: none;
+}
+.newClass li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.newClass a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.newClass a:hover{
+    color: #000;
+}
+.newClass .update_img{
+    width: 235.5px;
+    height: 157px;
+}
+.newClass .update_title{
+    background: white;
+    padding: 10px 15px 0;
+    font-size: 13px;
+    color: #333;
+    line-height: 18px;
+    height: 46px;
+    overflow: hidden;
+    text-align: justify;
+}
+.zhiye h2{
+    line-height: 40px;
+    height: 40px;
+    text-align: left;
+    font-size: 18px;
+    color: #333;
+}
+.zhiye ul{
+    list-style-type: none;
+    font-size: 0;
+}
+.zhiye li{
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right:7px;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 150px;
+    width: 192px;
+    background: #fff;
+}
+.zhiye a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.zhiye img{
+    height: 96px;
+    border: 0px;
+    vertical-align: middle;
+}
+.zhiye h3{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #333;
+}
+#footer{
+    margin: 0 auto;
+    width:1000px;
+    clear: both;
+    text-align: center;
+}
