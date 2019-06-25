@@ -1,2 +1,1 @@
-
-OnlineCoursePlatform
+一个简单的javaweb项目，模拟一个在线课程平台
